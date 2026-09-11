@@ -1,2 +1,4 @@
-2.2.1
-- GitHub updates are working again
+2.2.2
+- Added and updated 395 special moves
+- Added new crates to the xp to crates section
+- Fixed some bugs
