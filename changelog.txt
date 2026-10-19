@@ -1,4 +1,197 @@
 2.2.2
+## Additions
 - Added and updated 395 special moves
-- Added new crates to the xp to crates section
+- Added new crates to the XP to Crates section
+
+## Bug Fixes
 - Fixed some bugs
+
+2.2.1
+## Bug Fixes
+- GitHub updates are working again
+
+2.2.0
+## Additions
+- Added an option to add the save editor to Steam as an independent game
+
+## Redesigns
+- Reorganized some options
+
+## Compatibility
+- Updated multiple features for compatibility with Update 7.1.2
+
+2.1.9
+## Additions
+- Added an option to convert Small XP Orbs to Crates
+
+## Compatibility
+- Updated multiple features for compatibility with Update 7.1.2
+
+2.1.8
+## Additions
+- Added a Fallback option for End Match 99-0 (forces Goal to 99 and Match Time to the end of the current half)
+
+## Compatibility
+- Updated multiple features for compatibility with Update 7.1.1
+
+## Bug Fixes
+- Fixed the Goal option (outdated offset after the latest game update)
+
+2.1.7
+## Additions
+- Added an option to edit the quantity of spirits
+
+## Compatibility
+- Updated multiple features for compatibility with Update 7.1.1
+
+2.1.6
+## Compatibility
+- Updated EACLauncher
+
+## Bug Fixes
+- Fixed the force win option
+- Fixed the offline match cheats
+
+2.1.5
+## Additions
+- Added a system to skip 30 matches
+
+## Compatibility
+- Updated EACLauncher
+
+## Bug Fixes
+- Fixed the custom abilities option
+- Fixed the add hero option
+- Fixed the add spirits option
+
+2.1.4 [7.0.2 UPDATE!]
+## Compatibility
+- Updated multiple features for compatibility with Update 7.0.2
+- Updated EACLauncher
+
+2.1.3 [7.0.1 UPDATE!]
+## Additions
+- You can now skip the second match in Chronicle mode
+- Free Buy (Shop) now works with the tournament store
+
+## Compatibility
+- Updated multiple features for compatibility with Update 7.0.1
+
+## Maintenance
+- FutDraft mode, Hero Spirits and Special Moves are temporarily under maintenance
+
+2.1.2
+## Additions
+- Added a FutDraft system (Beta)
+
+2.1.1
+## Additions
+- Added a button to restart Steam as administrator
+
+## Improvements
+- Updated the Hero Spirits feature
+- Updated the Custom Passives
+
+## Performance
+- More stability when using Free Buy (Spirits)
+
+2.1.0 [6.1.1 UPDATE!]
+## Improvements
+- Updated the info of the custom passives
+
+## Compatibility
+- Updated multiple features for compatibility with Update 6.1.1
+
+2.0.4 [MANUAL ATTACH UPDATE!]
+## Additions
+- Added manual attach support
+
+## Performance
+- More stability when attaching to the game
+
+2.0.3 [DISCORD UPDATE!]
+## Additions
+- Added Discord Rich Presence support
+- Added an integrated bug and feedback reporting system (requires Discord)
+
+## Redesigns
+- Updated ability and special move icons
+
+## Bug Fixes
+- Fixed issues with the Free Buy (Spirits) feature
+
+## Maintenance
+- The Hero Spirits feature is temporarily under maintenance
+
+2.0.2
+## Improvements
+- Updated the Hero Spirits feature
+- Updated the Player Spirits section
+- Updated the Free Buy (Spirits) feature
+- Updated the Passives method
+- Updated the Tension Match hacks (Offline)
+
+## Compatibility
+- Updated multiple features for compatibility with Update 6.0.2
+
+## Performance
+- Improved stability when attaching to the game
+
+2.0.1
+## Compatibility
+- Fixed several features for compatibility with Update 6.0.2
+
+## Bug Fixes
+- The What's New window now only shows after an update
+
+## Maintenance
+- Custom Passives work but need an update
+
+2.0.0
+## Compatibility
+- Fixed several features for compatibility with Update 6.0.1
+
+## Maintenance
+- Still working on updating the remaining features
+- Emperor Penguin No. 2 feat. Shark, Icebreaker and Diamond Igloo are still not working
+
+1.9.0
+## Additions
+- Custom passives are now integrated in the app
+
+## Compatibility
+- Fixed multiple options to work with Update 5.0.2
+
+1.8.1
+## Additions
+- Added Match Cheats for Singleplayer
+- Added the following Special Moves:
+======================Shot=====================
+4178DB91 - Emperor Penguin No. 2 feat. Shark (Doesn't Appear in Game)
+3C0F2FD4 - Icebreaker (Doesn't Appear in Game)
+===================Goalkeep====================
+2B54BC9D - Diamond Igloo (Doesn't Appear in Game)
+
+## Bug Fixes
+- Fixed tutorials
+
+1.8.0
+## Compatibility
+- Fixed multiple options to work with Update 5.0.1
+
+## Bug Fixes
+- Fixed the custom rank option
+
+1.7.6
+## Additions
+- Added more special moves from Orion
+- Added a notification system
+
+1.7.5
+## Additions
+- Added special moves from Orion
+- Added an update system through GameBanana when GitHub fails
+
+1.7.4
+## Performance
+- Optimized the file size
