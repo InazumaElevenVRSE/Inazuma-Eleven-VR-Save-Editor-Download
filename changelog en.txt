@@ -1,0 +1,31 @@
+3.0.0
+## Additions
+The editor has been rewritten in C++: it no longer needs .NET
+Languages: English, Spanish, French and Italian, picked with the flag button in the header
+Tool Menu: a search box (Ctrl+F), a category list that follows the scroll and a counter of the options that are on
+Tutorials now play inside the editor
+End Match 99-0: a game speed picker (x1 to x10) while it is on
+Game mode: the seasonal animations stop while connected, so the game gets all the power
+## Redesigns
+New Tool Menu: an animated banner with the connection status and the Attach / Detach button, and the tools as rows with folding options
+New header with an animated background and the buttons grouped in a dock
+Updates and Changelogs: folding cards grouped by type
+Rounder cards, new animations, tooltips and scroll bars all over the app
+Messages, Settings, Notifications and Dev now open inside the editor
+## Seasonal Themes
+New Halloween, Summer and Christmas themes and icons (dark only)
+## Tools
+Updated to 7.2.1: Freeze Items, Increment Items on Use, Store Item Multiplier, Max Abilities, Give XP Orbs, XP to Crates, Freeze Spirits, Increment Spirits, Hero Spirits, Spirit Info, Enhance x9999, Badge Slot, Passive Values, Custom Passives, Tension Match, Special Moves Cooldown, Special Tactics Cooldown, Custom Goals, Drop Rate and Freeze Time for Select Moves
+## Performance
+Much less CPU and GPU use while you play: the animations slow down when the editor is in the background
+Smoother animations on any refresh rate and no more stutters while connected
+## Bug Fixes
+Fixed UI alignment issues and texts that were invisible or hard to read in some themes
+Fixed the app closing when resetting FutDraft or when the settings could not be saved
+More reliable automatic updates (they wait for the editor to close, retry and keep an update.log)
+Fixed "view the update details", scroll bars that could not be dragged and the mouse wheel over some tools
+Number boxes with an invalid value now go back to the previous one
+Fixed the original EACLauncher being lost if the editor was force-closed
+Fixed End Match 99-0 (Fallback) sometimes ending the match in a draw
+## Other
+Removed the Mod Manager and the What's New window

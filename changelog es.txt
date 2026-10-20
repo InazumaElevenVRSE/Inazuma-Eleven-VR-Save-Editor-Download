@@ -1,0 +1,31 @@
+3.0.0
+## Novedades
+El editor se ha reescrito en C++: ya no necesita .NET
+Idiomas: inglés, español, francés e italiano, que se eligen con el botón de la bandera en la cabecera
+Menú de herramientas: un buscador (Ctrl+F), una lista de categorías que sigue el scroll y un contador de las opciones activadas
+Los tutoriales ahora se reproducen dentro del editor
+Terminar partido 99-0: un selector de velocidad del juego (de x1 a x10) mientras está activado
+Modo juego: las animaciones de temporada se detienen mientras está conectado, para que el juego tenga toda la potencia
+## Rediseños
+Nuevo menú de herramientas: un banner animado con el estado de la conexión y el botón Conectar / Desconectar, y las herramientas en filas con opciones desplegables
+Nueva cabecera con un fondo animado y los botones agrupados en un dock
+Actualizaciones y Changelogs: tarjetas desplegables agrupadas por tipo
+Tarjetas más redondeadas, nuevas animaciones, tooltips y barras de scroll en toda la app
+Los mensajes, Ajustes, Notificaciones y Dev ahora se abren dentro del editor
+## Temas de temporada
+Nuevos temas e iconos de Halloween, Verano y Navidad (solo en modo oscuro)
+## Herramientas
+Se han actualizado a 7.2.1: Freeze Items, Increment Items on Use, Store Item Multiplier, Max Abilities, Give XP Orbs, XP to Crates, Freeze Spirits, Increment Spirits, Hero Spirits, Spirit Info, Enhance x9999, Badge Slot, Passive Values, Custom Passives, Tension Match, Special Moves Cooldown, Special Tactics Cooldown, Custom Goals, Drop Rate y Freeze Time for Select Moves
+## Rendimiento
+Mucho menos uso de CPU y GPU mientras juegas: las animaciones se ralentizan cuando el editor está en segundo plano
+Animaciones más fluidas con cualquier tasa de refresco y sin tirones mientras está conectado
+## Correcciones
+Se han corregido problemas de alineación de la interfaz y textos que no se veían o se leían mal en algunos temas
+Se ha corregido el cierre de la app al reiniciar FutDraft o cuando no se podían guardar los ajustes
+Actualizaciones automáticas más fiables (esperan a que el editor se cierre, reintentan y guardan un update.log)
+Se han corregido "ver los detalles de la actualización", las barras de scroll que no se podían arrastrar y la rueda del ratón sobre algunas herramientas
+Las casillas numéricas con un valor no válido ahora vuelven al valor anterior
+Se ha corregido la pérdida del EACLauncher original si el editor se cerraba a la fuerza
+Se ha corregido que Terminar partido 99-0 (Fallback) a veces acabara el partido en empate
+## Otros
+Se han eliminado el Mod Manager y la ventana de Novedades
