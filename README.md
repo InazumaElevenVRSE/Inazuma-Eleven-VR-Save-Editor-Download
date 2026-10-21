@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/Website-ievrsaveeditor.com-blue)](https://ievrsaveeditor.com/)
 [![GameBanana](https://img.shields.io/badge/GameBanana-Download-orange)](https://gamebanana.com/tools/21299)
-[![Version](https://img.shields.io/badge/Version-2.2.2-green)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
+[![Version](https://img.shields.io/badge/Version-3.0.1-green)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 [![Free](https://img.shields.io/badge/Price-Free-brightgreen)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 
