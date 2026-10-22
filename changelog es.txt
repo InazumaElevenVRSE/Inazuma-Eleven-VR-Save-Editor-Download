@@ -1,19 +1,23 @@
-3.0.1
+3.0.2
 ## Novedades
-Menú de herramientas: un botón "Enviar reporte a Discord" junto a Conectar al juego, para cuando el editor no consigue conectarse
+Player Spirits: una lista con todos los espíritus (más de 5.600) y la imagen del jugador; haz clic en uno para poner su ID en el campo Spirit Player ID
+Reportes: tu foto de Discord ahora aparece en la pestaña de Reportes y en los reportes que envías
+
 ## Herramientas
-Se han actualizado a 7.2.1 y ya no están en mantenimiento: Match Time, Player Level, Special Moves, Unlimited Hero/Fabled in Team, Free Buy Shop, Free Buy Spirit Market, Add Player Spirits y End Match 99-0 (Fallback)
+Fut Draft vuelve a estar activado
+
 ## Rediseños
-Nuevo diseño animado para Custom Passives (Hero / Fabled y Summon Players), Player Spirits y Add Spirits
-Report Unknown Ability ahora se abre dentro del editor, con un nuevo diseño animado
-Los menús desplegables ahora se abren con una animación, sus opciones entran deslizándose y la seleccionada se resalta
+Nueva tarjeta animada del desarrollador
+Añadir a Steam: una nueva ventana animada que muestra la vista previa en la biblioteca, cada paso en directo (cerrando Steam, creando el acceso directo, volviendo a abrir Steam) y el resultado
+
 ## Mejoras
-Custom Passives: Hero / Fabled ahora solo muestra pasivas de héroe y Summon Players solo muestra pasivas normales
-Give XP Orbs / XP to Crates: Locate ya no congela el editor, se muestra una pantalla de carga mientras busca
-Special Moves: una vez capturado el Abilearn Board, los slots sin movimiento muestran "-----"
-Special Moves ahora se ilumina en el menú de herramientas mientras está activado, y el menú de Custom Passives indica qué hook (Summon / Hero-Fabled) está activo
+El editor ahora se reduce para caber en pantallas más pequeñas (p. ej. 1366x768) sin que se corte ninguna opción, y se adapta al moverlo a otro monitor
+La carpeta del juego se encuentra en más configuraciones de Steam (bibliotecas personalizadas, carpetas renombradas, instalaciones por usuario), así que el cambio del launcher de EAC funciona para más gente
+Registros más claros cuando no se puede cambiar el launcher de EAC o el editor no consigue conectarse, para ayudar con los reportes
+Menú de herramientas: "Enviar reporte a Discord" ahora te pide conectar primero tu cuenta de Discord, como la pestaña de Reportes
+
 ## Correcciones
-Se ha corregido que a veces el editor no se conectara al juego aunque estuviera abierto
-Se ha corregido que Special Moves mantuviera las técnicas del jugador anterior en los slots que el nuevo jugador tiene vacíos
-Se ha corregido que Locate (Give XP Orbs / XP to Crates) a veces fallara la primera vez y funcionara en el segundo intento
-Se ha corregido que Give XP Orbs a veces pusiera tu cantidad actual en vez de la que habías escrito
+Los menús que se abren dentro del editor ya no dejan hacer clic en lo que hay detrás
+Se ha corregido que Player Spirits siempre añadiera el espíritu por defecto (BCE81249) en vez del ID que habías escrito
+Se ha corregido que Increment Spirits siempre añadiera 1 en vez de la cantidad elegida (1-99)
+Se ha corregido que los valores escritos en una casilla no se aplicaran al pulsar un botón o interruptor justo después

@@ -1,19 +1,23 @@
-3.0.1
+3.0.2
 ## Additions
-Tool Menu: a "Send report to Discord" button next to Attach to Game, for when the editor can't attach
+Player Spirits: a Spirit List with every spirit (over 5,600) and the player's picture, click one to put its ID in the Spirit Player ID field
+Reports: your Discord picture now shows in the Reports tab and in the reports you send
+
 ## Tools
-Updated to 7.2.1 and out of maintenance: Match Time, Player Level, Special Moves, Unlimited Hero/Fabled in Team, Free Buy Shop, Free Buy Spirit Market, Add Player Spirits and End Match 99-0 (Fallback)
+Fut Draft is enabled again
+
 ## Redesigns
-New animated look for Custom Passives (Hero / Fabled and Summon Players), Player Spirits and Add Spirits
-Report Unknown Ability now opens inside the editor, with a new animated design
-Dropdown menus now unfold with an animation, their items slide in and the selected one is highlighted
+New animated developer card
+Add to Steam: a new animated window that shows the library preview, each step live (closing Steam, writing the shortcut, reopening Steam) and the result
+
 ## Improvements
-Custom Passives: Hero / Fabled now only lists hero passives and Summon Players only lists normal passives
-Give XP Orbs / XP to Crates: Locate no longer freezes the editor, a loading screen shows while it searches
-Special Moves: once the Abilearn Board is captured, the slots without a move show "-----"
-Special Moves now lights up in the Tool Menu while editing is on, and the Custom Passives menu shows which hook (Summon / Hero-Fabled) is active
+The editor now scales down to fit smaller screens (e.g. 1366x768) so no options get cut off, and adapts when moved to another monitor
+The game folder is found in more Steam setups (custom libraries, renamed folders, per-user installs), so the EAC launcher swap works for more people
+Clearer logs when the EAC launcher can't be swapped or the editor can't attach, to help with reports
+Tool Menu: "Send report to Discord" now asks you to connect your Discord account first, like the Reports tab
+
 ## Bug Fixes
-Fixed the editor sometimes not attaching to the game even though it was open
-Fixed Special Moves keeping the previous player's moves in the slots the new player has empty
-Fixed Locate (Give XP Orbs / XP to Crates) sometimes failing the first time and working on the second try
-Fixed Give XP Orbs sometimes setting your current quantity instead of the one you typed
+The menus that open inside the editor no longer let you click what's behind them
+Fixed Player Spirits always adding the default spirit (BCE81249) instead of the ID you typed
+Fixed Increment Spirits always adding 1 instead of the amount you picked (1-99)
+Fixed values typed in a box not being applied when you clicked a button or switch right after
