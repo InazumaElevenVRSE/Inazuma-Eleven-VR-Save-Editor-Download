@@ -1,23 +1,16 @@
-3.0.2
+3.0.3
 ## Novedades
-Player Spirits: una lista con todos los espíritus (más de 5.600) y la imagen del jugador; haz clic en uno para poner su ID en el campo Spirit Player ID
-Reportes: tu foto de Discord ahora aparece en la pestaña de Reportes y en los reportes que envías
-
-## Herramientas
-Fut Draft vuelve a estar activado
-
-## Rediseños
-Nueva tarjeta animada del desarrollador
-Añadir a Steam: una nueva ventana animada que muestra la vista previa en la biblioteca, cada paso en directo (cerrando Steam, creando el acceso directo, volviendo a abrir Steam) y el resultado
+Special Moves: el desplegable de técnica de cada hueco ahora es una ventana de búsqueda dentro del editor con todas las supertécnicas (1.299), que se pueden buscar por nombre en cualquier idioma o por ID
+Special Moves: un botón Lista de supertécnicas para ver todas las supertécnicas y su vídeo, incluso sin el juego abierto
+Special Moves: nombres de las técnicas en japonés, inglés o español, elegidos con el filtro de Idioma como en la lista de espíritus. Los nombres vienen del Archivo de Jugadores oficial y de las wikis de Inazuma Eleven; los pocos sin nombre oficial están traducidos y marcados con *
+Special Moves: el elemento de cada técnica (Fuego, Bosque, Viento, Montaña o Neutro) y un filtro de Elemento, compartido con las listas de los huecos
+Special Moves: un botón de vista previa en cada técnica y hueco que reproduce su vídeo oficial dentro del editor (con sus variantes, p. ej. Tiro / Bloqueo de tiro)
 
 ## Mejoras
-El editor ahora se reduce para caber en pantallas más pequeñas (p. ej. 1366x768) sin que se corte ninguna opción, y se adapta al moverlo a otro monitor
-La carpeta del juego se encuentra en más configuraciones de Steam (bibliotecas personalizadas, carpetas renombradas, instalaciones por usuario), así que el cambio del launcher de EAC funciona para más gente
-Registros más claros cuando no se puede cambiar el launcher de EAC o el editor no consigue conectarse, para ayudar con los reportes
-Menú de herramientas: "Enviar reporte a Discord" ahora te pide conectar primero tu cuenta de Discord, como la pestaña de Reportes
+Novedades (Special Moves): los vídeos de las técnicas ahora se abren al momento en vez de buscarlos en el Archivo de Jugadores
+Menú de herramientas: cuando el juego se ha abierto con Easy Anti-Cheat, el estado ahora lo indica y explica qué hacer en vez de "No se pudo conectar"
 
 ## Correcciones
-Los menús que se abren dentro del editor ya no dejan hacer clic en lo que hay detrás
-Se ha corregido que Player Spirits siempre añadiera el espíritu por defecto (BCE81249) en vez del ID que habías escrito
-Se ha corregido que Increment Spirits siempre añadiera 1 en vez de la cantidad elegida (1-99)
-Se ha corregido que los valores escritos en una casilla no se aplicaran al pulsar un botón o interruptor justo después
+Se ha corregido que el editor no encontrara el juego cuando Steam guarda una carpeta antigua y vacía del juego en otra biblioteca ("EACLauncher.exe not found")
+Se ha corregido que el juego se quedara sin su EACLauncher.exe cuando se interrumpía un cambio anterior: ahora se restaura desde la copia de seguridad
+Se ha corregido que el launcher de EAC nunca se cambiara si el editor se abría con el juego ya en marcha: ahora se cambia en cuanto se cierra el juego

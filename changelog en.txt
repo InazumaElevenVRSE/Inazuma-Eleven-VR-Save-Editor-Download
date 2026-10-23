@@ -1,23 +1,16 @@
-3.0.2
+3.0.3
 ## Additions
-Player Spirits: a Spirit List with every spirit (over 5,600) and the player's picture, click one to put its ID in the Spirit Player ID field
-Reports: your Discord picture now shows in the Reports tab and in the reports you send
-
-## Tools
-Fut Draft is enabled again
-
-## Redesigns
-New animated developer card
-Add to Steam: a new animated window that shows the library preview, each step live (closing Steam, writing the shortcut, reopening Steam) and the result
+Special Moves: the move dropdown of each slot is now a search popup inside the editor with every special move (1,299), searchable by name in any language or by ID
+Special Moves: a Move List button to browse every move and watch its video, even without the game open
+Special Moves: move names in Japanese, English or Spanish, picked with the Language filter like in the Spirit List. Names come from the official Player Codex and the Inazuma Eleven wikis; the few with no official name are translated and marked with *
+Special Moves: each move's element (Fire, Forest, Wind, Mountain or Neutral) and an Element filter, shared with the slot lists
+Special Moves: a preview button on every move and slot that plays its official video inside the editor (with its variants, e.g. Shot / Shot Block)
 
 ## Improvements
-The editor now scales down to fit smaller screens (e.g. 1366x768) so no options get cut off, and adapts when moved to another monitor
-The game folder is found in more Steam setups (custom libraries, renamed folders, per-user installs), so the EAC launcher swap works for more people
-Clearer logs when the EAC launcher can't be swapped or the editor can't attach, to help with reports
-Tool Menu: "Send report to Discord" now asks you to connect your Discord account first, like the Reports tab
+What's New (Special Moves): the move videos now open straight away instead of searching the Player Codex
+Tool Menu: when the game was opened with Easy Anti-Cheat, the status now says so and what to do instead of "Failed to attach"
 
 ## Bug Fixes
-The menus that open inside the editor no longer let you click what's behind them
-Fixed Player Spirits always adding the default spirit (BCE81249) instead of the ID you typed
-Fixed Increment Spirits always adding 1 instead of the amount you picked (1-99)
-Fixed values typed in a box not being applied when you clicked a button or switch right after
+Fixed the editor not finding the game when Steam keeps an old empty game folder in another library ("EACLauncher.exe not found")
+Fixed the game being left without its EACLauncher.exe when a previous swap was interrupted: it is restored from the backup
+Fixed the EAC launcher never being swapped when the editor was opened with the game already running: it is swapped as soon as the game closes
