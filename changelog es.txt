@@ -1,16 +1,18 @@
-3.0.3
+3.0.4
 ## Novedades
-Special Moves: el desplegable de técnica de cada hueco ahora es una ventana de búsqueda dentro del editor con todas las supertécnicas (1.299), que se pueden buscar por nombre en cualquier idioma o por ID
-Special Moves: un botón Lista de supertécnicas para ver todas las supertécnicas y su vídeo, incluso sin el juego abierto
-Special Moves: nombres de las técnicas en japonés, inglés o español, elegidos con el filtro de Idioma como en la lista de espíritus. Los nombres vienen del Archivo de Jugadores oficial y de las wikis de Inazuma Eleven; los pocos sin nombre oficial están traducidos y marcados con *
-Special Moves: el elemento de cada técnica (Fuego, Bosque, Viento, Montaña o Neutro) y un filtro de Elemento, compartido con las listas de los huecos
-Special Moves: un botón de vista previa en cada técnica y hueco que reproduce su vídeo oficial dentro del editor (con sus variantes, p. ej. Tiro / Bloqueo de tiro)
+Player Spirits: un botón Reportar junto a Créditos en la lista de espíritus, para avisar de un error en un jugador: eliges el jugador y luego qué está mal (uno o varios): el equipo (el incorrecto y en el que debería estar), la posición o el nombre en cada idioma
+XP to Crates: el montón de Orbes de XP pequeños ahora se puede convertir en cualquiera de los 6 cofres
 
 ## Mejoras
-Novedades (Special Moves): los vídeos de las técnicas ahora se abren al momento en vez de buscarlos en el Archivo de Jugadores
-Menú de herramientas: cuando el juego se ha abierto con Easy Anti-Cheat, el estado ahora lo indica y explica qué hacer en vez de "No se pudo conectar"
+Inicio: la ventana y su pantalla de carga ahora aparecen al instante. Antes, el editor descomprimía todos sus archivos (~7.000 imágenes, 120 MB) antes de mostrar nada
+Menú de herramientas: Free Buy, Unlimited Hero/Fabled, Player Level, Enhance x9999, Badge Slot, Tension Match, ambos Cooldowns, Goal y Drop Rate ahora muestran las imágenes de objetos del propio juego en vez de iconos genéricos
+End Match 99-0: al activarlo ahora se muestran los pasos para usarlo (activarlo antes de entrar en un partido, p. ej. desde el menú principal), y su ayuda lo indica
+End Match 99-0: mientras está activo, la tarjeta indica lo que está haciendo (listo, esperando el 99, terminando el partido) y avisa cuando se lleva un rato jugando un partido sin el 99, en vez de parecer que funciona cuando solo se cambia la velocidad del juego
 
 ## Correcciones
-Se ha corregido que el editor no encontrara el juego cuando Steam guarda una carpeta antigua y vacía del juego en otra biblioteca ("EACLauncher.exe not found")
-Se ha corregido que el juego se quedara sin su EACLauncher.exe cuando se interrumpía un cambio anterior: ahora se restaura desde la copia de seguridad
-Se ha corregido que el launcher de EAC nunca se cambiara si el editor se abría con el juego ya en marcha: ahora se cambia en cuanto se cierra el juego
+Lista de espíritus: Shinsuke Liu Bei / Jean-Pierre Lapin (2D343738) ahora es portero en vez de defensa
+Lista de espíritus: Tenma Endou (8B9AC9C0) ahora es portero y se llama Mark Arion en vez de Arion Mark
+Lista de espíritus: Tezcat (CE4467E5) ahora se llama Tezcat Bailong (Shuu Hakuryuu)
+Se ha corregido que el EACLauncher.exe original a veces se perdiera: ahora se guardan dos copias de seguridad y la carpeta del juego nunca se queda sin launcher
+End Match 99-0 no hacía nada con Auto-Refresh desactivado: ahora el reloj se pone al final con Auto-Refresh activado o desactivado
+Abrir el editor cuando ya está abierto ahora trae al frente el que está abierto en vez de iniciar un segundo, lo que podía restaurar el launcher original de EAC al cerrar cualquiera de los dos y hacer que el siguiente inicio del juego no se pudiera conectar

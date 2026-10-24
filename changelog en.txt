@@ -1,16 +1,18 @@
-3.0.3
+3.0.4
 ## Additions
-Special Moves: the move dropdown of each slot is now a search popup inside the editor with every special move (1,299), searchable by name in any language or by ID
-Special Moves: a Move List button to browse every move and watch its video, even without the game open
-Special Moves: move names in Japanese, English or Spanish, picked with the Language filter like in the Spirit List. Names come from the official Player Codex and the Inazuma Eleven wikis; the few with no official name are translated and marked with *
-Special Moves: each move's element (Fire, Forest, Wind, Mountain or Neutral) and an Element filter, shared with the slot lists
-Special Moves: a preview button on every move and slot that plays its official video inside the editor (with its variants, e.g. Shot / Shot Block)
+Player Spirits: a Report button next to Credits in the Spirit List, to report a mistake in a player: pick the player, then what's wrong (one or more): the team (the wrong one and the one it should be in), the position or the name in each language
+XP to Crates: the Small XP Orb stack can now become any of the 6 crates
 
 ## Improvements
-What's New (Special Moves): the move videos now open straight away instead of searching the Player Codex
-Tool Menu: when the game was opened with Easy Anti-Cheat, the status now says so and what to do instead of "Failed to attach"
+Startup: the window and its loading screen now show at once. Before, the editor unpacked all its files (~7,000 pictures, 120 MB) before showing anything
+Tool Menu: Free Buy, Unlimited Hero/Fabled, Player Level, Enhance x9999, Badge Slot, Tension Match, both Cooldowns, Goal and Drop Rate now show the game's own item pictures instead of generic icons
+End Match 99-0: turning it on now shows the steps to use it (turn it on before entering a match, e.g. from the main menu), and its hint says so
+End Match 99-0: while it is on, the card says what it is doing (ready, waiting for the 99, ending the match) and warns when a match has been played for a while without the 99, instead of looking like it works while only the game speed is changed
 
 ## Bug Fixes
-Fixed the editor not finding the game when Steam keeps an old empty game folder in another library ("EACLauncher.exe not found")
-Fixed the game being left without its EACLauncher.exe when a previous swap was interrupted: it is restored from the backup
-Fixed the EAC launcher never being swapped when the editor was opened with the game already running: it is swapped as soon as the game closes
+Spirit List: Shinsuke Liu Bei / Jean-Pierre Lapin (2D343738) is now a goalkeeper instead of a defender
+Spirit List: Tenma Endou (8B9AC9C0) is now a goalkeeper and is called Mark Arion instead of Arion Mark
+Spirit List: Tezcat (CE4467E5) is now called Tezcat Bailong (Shuu Hakuryuu)
+Fixed the original EACLauncher.exe sometimes getting lost: it is now backed up twice and the game folder is never left without a launcher
+End Match 99-0 did nothing with Auto-Refresh off: the clock is now put to the end with Auto-Refresh on or off
+Opening the editor while it's already open now brings the open one to the front instead of starting a second one, which could put the original EAC launcher back when either was closed and make the next game launch fail to attach
