@@ -1,3 +1,19 @@
+4.1.0
+## Improvements
+- FutDraft: redesigned in FUT style, with player cards dealt face down and turned over each round
+- FutDraft: the drafted team goes straight into a team of your save, shown on a pitch at the end
+- FutDraft: drag players between places, and win your tactics and synergies on slot machines
+- FutDraft: attacking 4-3-3, pick your save first, and choose the team, kit and emblem at the end
+- Save File > Teams: the move picker lists every move, not just the ones you have
+- Save File > Teams and FutDraft: new coaches and managers come wearing their badge
+
+## Bug Fixes
+- Save File > Teams: unused Team Dock slots no longer show up as empty teams
+- Save File > Teams: keshins, miximaxes and moves in slots 4-9 now show in game, as the game marks them
+- Save File > Teams: players with moves the game hid get a button to show them
+- Save File > Teams: Keshin Armed items are no longer offered as moves (they don't show in a move slot)
+- Save File > Teams: the team's header no longer runs off the card
+
 4.0.0 [SAVE FILE UPDATE!]
 ## Additions
 - New Save File tab: edit your save with the game closed (based on adhyayanrathi01's editor)

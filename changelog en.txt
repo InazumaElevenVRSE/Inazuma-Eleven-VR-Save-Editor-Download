@@ -1,24 +1,15 @@
-4.0.0 [SAVE FILE UPDATE!]
-## Additions
-New Save File tab: edit your save with the game closed (based on adhyayanrathi01's editor)
-Save File > Editor: unlock or remove items, change spirit tiers and set every player's level
-Save File > Teams: your teams on a pitch; edit each player's moves, passives, beans and level
-Save File > Teams: add or swap players, with heroes, Fables and your created player shown correctly
-Save File > Teams: export to a folder with the team file and a picture, or share it on Discord
-Save File > Backups: back up when opening a save, then restore, export, import or delete backups
-Tool Menu: a game bar with the EAC launcher's state and Patch, Game folder and Start game buttons
-
-## Redesigns
-End Match 99-0 is now Skip Story: the 99 goes in at kick-off and the match ends at half time
-Classic theme: now uses Raimon's colours instead of the bright yellow
-
+4.1.0
 ## Improvements
-Skip Story: match objectives count as done, so story and Chronicle matches are won at once
-Start game works without Steam, and asks for nie.exe when the game isn't in a Steam folder
-Custom Passives: each passive now shows its real name, number, value and condition
-XP Orbs / XP to Crates: if Locate fails, it now says you need at least 1 Small XP Orb
-Attach: when Easy Anti-Cheat blocks the game, the status now says to close and reopen it
-Attach reports now include the game folder and the EAC launcher's state
+FutDraft: redesigned in FUT style, with player cards dealt face down and turned over each round
+FutDraft: the drafted team goes straight into a team of your save, shown on a pitch at the end
+FutDraft: drag players between places, and win your tactics and synergies on slot machines
+FutDraft: attacking 4-3-3, pick your save first, and choose the team, kit and emblem at the end
+Save File > Teams: the move picker lists every move, not just the ones you have
+Save File > Teams and FutDraft: new coaches and managers come wearing their badge
 
 ## Bug Fixes
-Spirit List: elementary Heath Moore and Duske Grayling showed their middle school picture
+Save File > Teams: unused Team Dock slots no longer show up as empty teams
+Save File > Teams: keshins, miximaxes and moves in slots 4-9 now show in game, as the game marks them
+Save File > Teams: players with moves the game hid get a button to show them
+Save File > Teams: Keshin Armed items are no longer offered as moves (they don't show in a move slot)
+Save File > Teams: the team's header no longer runs off the card

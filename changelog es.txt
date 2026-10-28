@@ -1,24 +1,15 @@
-4.0.0 [SAVE FILE UPDATE!]
-## Novedades
-Nueva pestaña Archivo de guardado: edita tu guardado con el juego cerrado (basada en el editor de adhyayanrathi01)
-Archivo de guardado > Editor: desbloquea o quita objetos, cambia el rango de los espíritus y el nivel de cada jugador
-Archivo de guardado > Equipos: tus equipos en el campo; edita las técnicas, pasivos, judías y nivel de cada jugador
-Archivo de guardado > Equipos: añade o cambia jugadores, con héroes, Fábulas y tu jugador creado bien mostrados
-Archivo de guardado > Equipos: exporta a una carpeta con el archivo del equipo y una imagen, o compártelo en Discord
-Archivo de guardado > Copias: haz una copia al abrir un guardado y luego restaura, exporta, importa o borra copias
-Tool Menu: una barra del juego con el estado del launcher de EAC y los botones Parchear, Carpeta del juego e Iniciar juego
-
-## Rediseños
-End Match 99-0 ahora es Saltar historia: el 99 entra en el saque inicial y el partido acaba al descanso
-Tema Clásico: ahora usa los colores del Raimon en vez del amarillo chillón
-
+4.1.0
 ## Mejoras
-Saltar historia: los objetivos del partido cuentan como cumplidos, así los partidos de historia y Chronicle se ganan al instante
-Iniciar juego funciona sin Steam, y pide nie.exe cuando el juego no está en una carpeta de Steam
-Pasivos personalizados: cada pasivo muestra ahora su nombre real, número, valor y condición
-XP Orbs / XP to Crates: si Locate falla, ahora avisa de que necesitas al menos 1 Orbe de XP pequeño
-Conexión: cuando Easy Anti-Cheat bloquea el juego, el estado ahora dice que lo cierres y lo vuelvas a abrir
-Los reportes de conexión ahora incluyen la carpeta del juego y el estado del launcher de EAC
+FutDraft: rediseñado al estilo FUT, con cartas de jugadores que salen boca abajo y se giran en cada ronda
+FutDraft: el equipo elegido va directo a un equipo de tu guardado, y al final se muestra en el campo
+FutDraft: arrastra jugadores entre posiciones y gana tus tácticas y sinergias en tragaperras
+FutDraft: 4-3-3 ofensivo, eliges tu guardado al empezar, y al final el equipo, la equipación y el escudo
+Archivo de guardado > Equipos: el selector de técnicas muestra todas, no solo las que tienes
+Archivo de guardado > Equipos y FutDraft: los entrenadores y mánagers nuevos vienen con su insignia puesta
 
 ## Correcciones
-Lista de espíritus: Heath Moore y Duske Grayling de primaria mostraban su imagen de secundaria
+Archivo de guardado > Equipos: los huecos sin usar del Team Dock ya no salen como equipos vacíos
+Archivo de guardado > Equipos: los keshins, miximax y técnicas de los huecos 4-9 ahora salen en el juego, marcados como lo hace el juego
+Archivo de guardado > Equipos: los jugadores con técnicas ocultas por el juego tienen un botón para mostrarlas
+Archivo de guardado > Equipos: las Keshin Armed ya no se ofrecen como técnicas (no salen en un hueco de técnica)
+Archivo de guardado > Equipos: la cabecera del equipo ya no se sale de la tarjeta
