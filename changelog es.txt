@@ -1,18 +1,24 @@
-3.0.4
+4.0.0 [SAVE FILE UPDATE!]
 ## Novedades
-Player Spirits: un botón Reportar junto a Créditos en la lista de espíritus, para avisar de un error en un jugador: eliges el jugador y luego qué está mal (uno o varios): el equipo (el incorrecto y en el que debería estar), la posición o el nombre en cada idioma
-XP to Crates: el montón de Orbes de XP pequeños ahora se puede convertir en cualquiera de los 6 cofres
+Nueva pestaña Archivo de guardado: edita tu guardado con el juego cerrado (basada en el editor de adhyayanrathi01)
+Archivo de guardado > Editor: desbloquea o quita objetos, cambia el rango de los espíritus y el nivel de cada jugador
+Archivo de guardado > Equipos: tus equipos en el campo; edita las técnicas, pasivos, judías y nivel de cada jugador
+Archivo de guardado > Equipos: añade o cambia jugadores, con héroes, Fábulas y tu jugador creado bien mostrados
+Archivo de guardado > Equipos: exporta a una carpeta con el archivo del equipo y una imagen, o compártelo en Discord
+Archivo de guardado > Copias: haz una copia al abrir un guardado y luego restaura, exporta, importa o borra copias
+Tool Menu: una barra del juego con el estado del launcher de EAC y los botones Parchear, Carpeta del juego e Iniciar juego
+
+## Rediseños
+End Match 99-0 ahora es Saltar historia: el 99 entra en el saque inicial y el partido acaba al descanso
+Tema Clásico: ahora usa los colores del Raimon en vez del amarillo chillón
 
 ## Mejoras
-Inicio: la ventana y su pantalla de carga ahora aparecen al instante. Antes, el editor descomprimía todos sus archivos (~7.000 imágenes, 120 MB) antes de mostrar nada
-Menú de herramientas: Free Buy, Unlimited Hero/Fabled, Player Level, Enhance x9999, Badge Slot, Tension Match, ambos Cooldowns, Goal y Drop Rate ahora muestran las imágenes de objetos del propio juego en vez de iconos genéricos
-End Match 99-0: al activarlo ahora se muestran los pasos para usarlo (activarlo antes de entrar en un partido, p. ej. desde el menú principal), y su ayuda lo indica
-End Match 99-0: mientras está activo, la tarjeta indica lo que está haciendo (listo, esperando el 99, terminando el partido) y avisa cuando se lleva un rato jugando un partido sin el 99, en vez de parecer que funciona cuando solo se cambia la velocidad del juego
+Saltar historia: los objetivos del partido cuentan como cumplidos, así los partidos de historia y Chronicle se ganan al instante
+Iniciar juego funciona sin Steam, y pide nie.exe cuando el juego no está en una carpeta de Steam
+Pasivos personalizados: cada pasivo muestra ahora su nombre real, número, valor y condición
+XP Orbs / XP to Crates: si Locate falla, ahora avisa de que necesitas al menos 1 Orbe de XP pequeño
+Conexión: cuando Easy Anti-Cheat bloquea el juego, el estado ahora dice que lo cierres y lo vuelvas a abrir
+Los reportes de conexión ahora incluyen la carpeta del juego y el estado del launcher de EAC
 
 ## Correcciones
-Lista de espíritus: Shinsuke Liu Bei / Jean-Pierre Lapin (2D343738) ahora es portero en vez de defensa
-Lista de espíritus: Tenma Endou (8B9AC9C0) ahora es portero y se llama Mark Arion en vez de Arion Mark
-Lista de espíritus: Tezcat (CE4467E5) ahora se llama Tezcat Bailong (Shuu Hakuryuu)
-Se ha corregido que el EACLauncher.exe original a veces se perdiera: ahora se guardan dos copias de seguridad y la carpeta del juego nunca se queda sin launcher
-End Match 99-0 no hacía nada con Auto-Refresh desactivado: ahora el reloj se pone al final con Auto-Refresh activado o desactivado
-Abrir el editor cuando ya está abierto ahora trae al frente el que está abierto en vez de iniciar un segundo, lo que podía restaurar el launcher original de EAC al cerrar cualquiera de los dos y hacer que el siguiente inicio del juego no se pudiera conectar
+Lista de espíritus: Heath Moore y Duske Grayling de primaria mostraban su imagen de secundaria

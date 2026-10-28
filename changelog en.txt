@@ -1,18 +1,24 @@
-3.0.4
+4.0.0 [SAVE FILE UPDATE!]
 ## Additions
-Player Spirits: a Report button next to Credits in the Spirit List, to report a mistake in a player: pick the player, then what's wrong (one or more): the team (the wrong one and the one it should be in), the position or the name in each language
-XP to Crates: the Small XP Orb stack can now become any of the 6 crates
+New Save File tab: edit your save with the game closed (based on adhyayanrathi01's editor)
+Save File > Editor: unlock or remove items, change spirit tiers and set every player's level
+Save File > Teams: your teams on a pitch; edit each player's moves, passives, beans and level
+Save File > Teams: add or swap players, with heroes, Fables and your created player shown correctly
+Save File > Teams: export to a folder with the team file and a picture, or share it on Discord
+Save File > Backups: back up when opening a save, then restore, export, import or delete backups
+Tool Menu: a game bar with the EAC launcher's state and Patch, Game folder and Start game buttons
+
+## Redesigns
+End Match 99-0 is now Skip Story: the 99 goes in at kick-off and the match ends at half time
+Classic theme: now uses Raimon's colours instead of the bright yellow
 
 ## Improvements
-Startup: the window and its loading screen now show at once. Before, the editor unpacked all its files (~7,000 pictures, 120 MB) before showing anything
-Tool Menu: Free Buy, Unlimited Hero/Fabled, Player Level, Enhance x9999, Badge Slot, Tension Match, both Cooldowns, Goal and Drop Rate now show the game's own item pictures instead of generic icons
-End Match 99-0: turning it on now shows the steps to use it (turn it on before entering a match, e.g. from the main menu), and its hint says so
-End Match 99-0: while it is on, the card says what it is doing (ready, waiting for the 99, ending the match) and warns when a match has been played for a while without the 99, instead of looking like it works while only the game speed is changed
+Skip Story: match objectives count as done, so story and Chronicle matches are won at once
+Start game works without Steam, and asks for nie.exe when the game isn't in a Steam folder
+Custom Passives: each passive now shows its real name, number, value and condition
+XP Orbs / XP to Crates: if Locate fails, it now says you need at least 1 Small XP Orb
+Attach: when Easy Anti-Cheat blocks the game, the status now says to close and reopen it
+Attach reports now include the game folder and the EAC launcher's state
 
 ## Bug Fixes
-Spirit List: Shinsuke Liu Bei / Jean-Pierre Lapin (2D343738) is now a goalkeeper instead of a defender
-Spirit List: Tenma Endou (8B9AC9C0) is now a goalkeeper and is called Mark Arion instead of Arion Mark
-Spirit List: Tezcat (CE4467E5) is now called Tezcat Bailong (Shuu Hakuryuu)
-Fixed the original EACLauncher.exe sometimes getting lost: it is now backed up twice and the game folder is never left without a launcher
-End Match 99-0 did nothing with Auto-Refresh off: the clock is now put to the end with Auto-Refresh on or off
-Opening the editor while it's already open now brings the open one to the front instead of starting a second one, which could put the original EAC launcher back when either was closed and make the next game launch fail to attach
+Spirit List: elementary Heath Moore and Duske Grayling showed their middle school picture

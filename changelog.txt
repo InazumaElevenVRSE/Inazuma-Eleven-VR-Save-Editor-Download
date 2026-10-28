@@ -1,3 +1,28 @@
+4.0.0 [SAVE FILE UPDATE!]
+## Additions
+- New Save File tab: edit your save with the game closed (based on adhyayanrathi01's editor)
+- Save File > Editor: unlock or remove items, change spirit tiers and set every player's level
+- Save File > Teams: your teams on a pitch; edit each player's moves, passives, beans and level
+- Save File > Teams: add or swap players, with heroes, Fables and your created player shown correctly
+- Save File > Teams: export to a folder with the team file and a picture, or share it on Discord
+- Save File > Backups: back up when opening a save, then restore, export, import or delete backups
+- Tool Menu: a game bar with the EAC launcher's state and Patch, Game folder and Start game buttons
+
+## Redesigns
+- End Match 99-0 is now Skip Story: the 99 goes in at kick-off and the match ends at half time
+- Classic theme: now uses Raimon's colours instead of the bright yellow
+
+## Improvements
+- Skip Story: match objectives count as done, so story and Chronicle matches are won at once
+- Start game works without Steam, and asks for nie.exe when the game isn't in a Steam folder
+- Custom Passives: each passive now shows its real name, number, value and condition
+- XP Orbs / XP to Crates: if Locate fails, it now says you need at least 1 Small XP Orb
+- Attach: when Easy Anti-Cheat blocks the game, the status now says to close and reopen it
+- Attach reports now include the game folder and the EAC launcher's state
+
+## Bug Fixes
+- Spirit List: elementary Heath Moore and Duske Grayling showed their middle school picture
+
 3.0.4
 ## Additions
 - Player Spirits: a Report button next to Credits in the Spirit List, to report a mistake in a player: pick the player, then what's wrong (one or more): the team (the wrong one and the one it should be in), the position or the name in each language
