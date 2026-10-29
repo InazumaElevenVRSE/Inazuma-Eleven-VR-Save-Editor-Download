@@ -1,15 +1,12 @@
-4.1.0
+4.1.1
 ## Improvements
-FutDraft: redesigned in FUT style, with player cards dealt face down and turned over each round
-FutDraft: the drafted team goes straight into a team of your save, shown on a pitch at the end
-FutDraft: drag players between places, and win your tactics and synergies on slot machines
-FutDraft: attacking 4-3-3, pick your save first, and choose the team, kit and emblem at the end
-Save File > Teams: the move picker lists every move, not just the ones you have
-Save File > Teams and FutDraft: new coaches and managers come wearing their badge
+Player picker: new filters by card (normal, heroes, Fables), element and build type
+Player picker: "Only new" and "One of each" are now one chip, New, with every character
+Save File: a JP / EN / ES switch for the players' names
+Save File: passives show their number (#24), as in Custom Passives, and can be searched by it
+Save File > Library: clicking a player shows their moves, passives, level and beans
+Save File > Library: right click changes the player; the captain is set from the player card
 
 ## Bug Fixes
-Save File > Teams: unused Team Dock slots no longer show up as empty teams
-Save File > Teams: keshins, miximaxes and moves in slots 4-9 now show in game, as the game marks them
-Save File > Teams: players with moves the game hid get a button to show them
-Save File > Teams: Keshin Armed items are no longer offered as moves (they don't show in a move slot)
-Save File > Teams: the team's header no longer runs off the card
+Player picker: every hero card and Fable can now be made a new player, not only normal ones
+Player picker: the Buddy Fury and Dvalin Fables now show their picture

@@ -1,15 +1,12 @@
-4.1.0
+4.1.1
 ## Mejoras
-FutDraft: rediseñado al estilo FUT, con cartas de jugadores que salen boca abajo y se giran en cada ronda
-FutDraft: el equipo elegido va directo a un equipo de tu guardado, y al final se muestra en el campo
-FutDraft: arrastra jugadores entre posiciones y gana tus tácticas y sinergias en tragaperras
-FutDraft: 4-3-3 ofensivo, eliges tu guardado al empezar, y al final el equipo, la equipación y el escudo
-Archivo de guardado > Equipos: el selector de técnicas muestra todas, no solo las que tienes
-Archivo de guardado > Equipos y FutDraft: los entrenadores y mánagers nuevos vienen con su insignia puesta
+Selector de jugadores: nuevos filtros por carta (normal, héroes, Fables), elemento y tipo de build
+Selector de jugadores: "Solo nuevos" y "Uno de cada" son ahora un solo chip, Nuevos, con todos los personajes
+Archivo de guardado: un selector JP / EN / ES para los nombres de los jugadores
+Archivo de guardado: las pasivas muestran su número (#24), como en Custom Passives, y se pueden buscar por él
+Archivo de guardado > Biblioteca: al hacer clic en un jugador se ven sus técnicas, pasivas, nivel y alubias
+Archivo de guardado > Biblioteca: el clic derecho cambia el jugador; el capitán se elige desde su tarjeta
 
 ## Correcciones
-Archivo de guardado > Equipos: los huecos sin usar del Team Dock ya no salen como equipos vacíos
-Archivo de guardado > Equipos: los keshins, miximax y técnicas de los huecos 4-9 ahora salen en el juego, marcados como lo hace el juego
-Archivo de guardado > Equipos: los jugadores con técnicas ocultas por el juego tienen un botón para mostrarlas
-Archivo de guardado > Equipos: las Keshin Armed ya no se ofrecen como técnicas (no salen en un hueco de técnica)
-Archivo de guardado > Equipos: la cabecera del equipo ya no se sale de la tarjeta
+Selector de jugadores: todas las hero cards y Fables se pueden crear como jugador nuevo, no solo los normales
+Selector de jugadores: las Fables de Buddy Fury y Dvalin ahora tienen foto
