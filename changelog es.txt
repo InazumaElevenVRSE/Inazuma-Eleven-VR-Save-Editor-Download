@@ -1,12 +1,3 @@
-4.1.1
-## Mejoras
-Selector de jugadores: nuevos filtros por carta (normal, héroes, Fables), elemento y tipo de build
-Selector de jugadores: "Solo nuevos" y "Uno de cada" son ahora un solo chip, Nuevos, con todos los personajes
-Archivo de guardado: un selector JP / EN / ES para los nombres de los jugadores
-Archivo de guardado: las pasivas muestran su número (#24), como en Custom Passives, y se pueden buscar por él
-Archivo de guardado > Biblioteca: al hacer clic en un jugador se ven sus técnicas, pasivas, nivel y alubias
-Archivo de guardado > Biblioteca: el clic derecho cambia el jugador; el capitán se elige desde su tarjeta
-
+4.1.2
 ## Correcciones
-Selector de jugadores: todas las hero cards y Fables se pueden crear como jugador nuevo, no solo los normales
-Selector de jugadores: las Fables de Buddy Fury y Dvalin ahora tienen foto
+Archivo de guardado y FutDraft: crear jugadores nuevos podía fallar con "player counter wasn't found" en algunos guardados

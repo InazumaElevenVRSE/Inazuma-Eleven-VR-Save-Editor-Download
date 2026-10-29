@@ -1,12 +1,3 @@
-4.1.1
-## Improvements
-Player picker: new filters by card (normal, heroes, Fables), element and build type
-Player picker: "Only new" and "One of each" are now one chip, New, with every character
-Save File: a JP / EN / ES switch for the players' names
-Save File: passives show their number (#24), as in Custom Passives, and can be searched by it
-Save File > Library: clicking a player shows their moves, passives, level and beans
-Save File > Library: right click changes the player; the captain is set from the player card
-
+4.1.2
 ## Bug Fixes
-Player picker: every hero card and Fable can now be made a new player, not only normal ones
-Player picker: the Buddy Fury and Dvalin Fables now show their picture
+Save File and FutDraft: new players could fail with "player counter wasn't found" on some saves

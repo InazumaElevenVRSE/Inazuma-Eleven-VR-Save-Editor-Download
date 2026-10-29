@@ -1,3 +1,7 @@
+4.1.2
+## Bug Fixes
+- Save File and FutDraft: new players could fail with "player counter wasn't found" on some saves
+
 4.1.1
 ## Improvements
 - Player picker: new filters by card (normal, heroes, Fables), element and build type
