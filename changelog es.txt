@@ -1,6 +1,6 @@
 4.1.4
 ## Mejoras
-Selector de jugadores: Destin Billows también sale como jugador, con árbol de habilidades y sin insignia
+Selector de jugadores: Destin Billows/Sasanami Unmei también sale como jugador, con árbol de habilidades y sin insignia
 Selectores de técnicas: las técnicas de Keshin están bloqueadas; el juego solo deja usarlas al espíritu
 
 ## Correcciones

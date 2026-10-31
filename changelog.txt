@@ -1,6 +1,6 @@
 4.1.4
 ## Improvements
-- Player picker: Destin Billows also comes as a player, with a skill tree and no badge
+- Player picker: Destin Billows/Sasanami Unmei also comes as a player, with a skill tree and no badge
 - Move pickers: Keshin moves are locked, as the game only lets the spirit use them
 
 ## Bug Fixes
