@@ -1,3 +1,12 @@
+4.1.4
+## Improvements
+- Player picker: Destin Billows also comes as a player, with a skill tree and no badge
+- Move pickers: Keshin moves are locked, as the game only lets the spirit use them
+
+## Bug Fixes
+- Hero cards: moves put in slots 4-6 no longer vanish in game when leaving the skill tree
+- Save File > Teams: the show hidden moves button also fixes hero cards edited before
+
 4.1.3
 ## Improvements
 - New players get random passives rolled the way the game rolls them, not all the same ones

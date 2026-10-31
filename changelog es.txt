@@ -1,10 +1,8 @@
-4.1.3
+4.1.4
 ## Mejoras
-Los jugadores nuevos reciben pasivas aleatorias sorteadas como en el juego, no siempre las mismas
-Archivo de guardado > Equipos: haz capitán a cualquier jugador del Team Dock desde su ficha
-Archivo de guardado > Equipos: las cartas de héroe y las Fábulas muestran sus pasivas propias
+Selector de jugadores: Destin Billows también sale como jugador, con árbol de habilidades y sin insignia
+Selectores de técnicas: las técnicas de Keshin están bloqueadas; el juego solo deja usarlas al espíritu
+
 ## Correcciones
-Las cartas de héroe y Fábulas nuevas no tenían pasivas en el juego; un botón arregla las antiguas
-FutDraft: los jugadores del equipo sorteado ya no salen sin pasivas
-Los equipos editados con el editor guardan el entrenador y el capitán como lo hace el juego
-Archivo de guardado > Equipos: un botón arregla el entrenador de equipos editados antes
+Cartas de héroe: las técnicas puestas en los huecos 4-6 ya no desaparecen en el juego al salir del árbol
+Archivo de guardado > Equipos: el botón de técnicas ocultas también arregla cartas de héroe ya editadas

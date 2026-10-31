@@ -1,10 +1,8 @@
-4.1.3
+4.1.4
 ## Improvements
-New players get random passives rolled the way the game rolls them, not all the same ones
-Save File > Teams: make any player of a Team Dock team its captain from the player card
-Save File > Teams: hero cards and Fables show their own passives
+Player picker: Destin Billows also comes as a player, with a skill tree and no badge
+Move pickers: Keshin moves are locked, as the game only lets the spirit use them
+
 ## Bug Fixes
-New hero cards and Fables were missing their passives in game; a button restores old ones
-FutDraft: the drafted team's players no longer come without passives
-Teams edited in the editor now keep their coach and captain the way the game does
-Save File > Teams: a button fixes the coach of teams edited before this version
+Hero cards: moves put in slots 4-6 no longer vanish in game when leaving the skill tree
+Save File > Teams: the show hidden moves button also fixes hero cards edited before
