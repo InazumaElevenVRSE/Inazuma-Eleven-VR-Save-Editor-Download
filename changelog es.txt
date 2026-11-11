@@ -1,8 +1,12 @@
-4.1.4
+4.1.5
 ## Mejoras
-Selector de jugadores: Destin Billows/Sasanami Unmei también sale como jugador, con árbol de habilidades y sin insignia
-Selectores de técnicas: las técnicas de Keshin están bloqueadas; el juego solo deja usarlas al espíritu
+Archivo de guardado > Equipos: los entrenadores y mánagers muestran sus propios pasivos y puedes cambiarlos
+Archivo de guardado > Equipos: los entrenadores y mánagers nuevos reciben los pasivos de staff que les da el juego
+Archivo de guardado > Equipos y FutDraft: cualquiera vale para cualquier puesto, eligiéndolo o arrastrándolo, staff incluido
+Selector de jugadores: elige si el nuevo se crea como jugador, entrenador o mánager
+Selector de jugadores: nueva calidad Fabled (basara), que convierte a un jugador normal en Fable como hace el juego
+Los jugadores nuevos vienen con 50 partidos jugados, así ninguna casilla del árbol espera partidos
 
 ## Correcciones
-Cartas de héroe: las técnicas puestas en los huecos 4-6 ya no desaparecen en el juego al salir del árbol
-Archivo de guardado > Equipos: el botón de técnicas ocultas también arregla cartas de héroe ya editadas
+El staff creado como jugador tiene un botón para darle pasivos de entrenador o mánager en su puesto
+Los equipos importados conservan los pasivos de sus entrenadores y mánagers

@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/badge/Website-ievrsaveeditor.com-blue)](https://ievrsaveeditor.com/)
 [![GameBanana](https://img.shields.io/badge/GameBanana-Download-orange)](https://gamebanana.com/tools/21299)
-[![Version](https://img.shields.io/badge/Version-4.1.4-green)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
+[![Version](https://img.shields.io/badge/Version-4.1.5-green)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 [![Free](https://img.shields.io/badge/Price-Free-brightgreen)](https://github.com/InazumaElevenVRSE/Inazuma-Eleven-VR-Save-Editor-Download/releases/latest)
 
@@ -14,7 +14,7 @@
 
 ## What's new in 3.0.0
 
-- **Rewritten from C# to C++** — no .NET needed anymore
+- **Rewritten from C# to C++**
 - **New Tool Menu** — an animated banner with the connection status, a search box (`Ctrl+F`), a category list that follows the scroll and every tool as a row with its options folding out underneath
 - **Updates and Changelogs** — every version's changes as folding cards, grouped by type (Additions, Redesigns, Bug Fixes…)
 - **Tutorials** play inside the editor
