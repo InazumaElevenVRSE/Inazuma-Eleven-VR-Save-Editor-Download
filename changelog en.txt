@@ -1,12 +1,9 @@
-4.1.5
-## Improvements
-Save File > Teams: coaches and managers show their own passives and you can change them
-Save File > Teams: new coaches and managers get the staff passives the game gives them
-Save File > Teams and FutDraft: anyone fits any place, picked or dragged, staff included
-Player picker: choose whether a new one is made as a player, coach or manager
-Player picker: new Fabled (basara) quality makes a normal player a Fable, as the game does
-New players come with 50 matches played, so no skill tree node waits for matches
+4.1.6
+## Compatibility
+Updated to game version 7.2.2
+Working again: Freeze/Increment Items, Store Item Multiplier, Freeze/Increment Spirits, Unlimited Hero/Fabled
 
 ## Bug Fixes
-Staff made as players get a button to give them coach or manager passives in their place
-Imported teams keep their coaches' and managers' passives
+Enhance x9999: the bar now fills up with a single spirit
+Store Item Multiplier no longer breaks some purchases
+Turning off Increment Spirits no longer risks crashing the game
